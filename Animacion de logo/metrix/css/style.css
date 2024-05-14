@@ -1,0 +1,35 @@
+body{
+    background: #000000;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-logo{
+    width: 450px;
+    height: 450px;
+}
+#metrix{
+    background-image: url(../img/logo3.svg);
+}
+.contenedor-logo figure{
+    width: 340px;
+    height: 340px;
+    background-repeat: none;
+    background-size: cover;
+    overflow: visible;
+    color: #8167B7;
+}
+.contenedor-logo:hover figure{
+    animation: 4s steps(28) infinite alternate logo;
+}
+
+@keyframes logo {
+    to {
+        background-position: 100%;
+    }
+}
